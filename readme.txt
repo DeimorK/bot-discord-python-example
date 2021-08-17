@@ -1,7 +1,7 @@
-Link para criar o bot
+Link to create bot app for discord
 	https://discord.com/developers/applications
 
-Link para connectar o bot no servidor
+Link to connect the bot to the server
 	https://discord.com/oauth2/authorize?client_id=xxx&permissions=8&scope=bot
 
 Example:
