@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-client = discord.Client()
+client = discord.ext.commands.Bot(command_prefix='<prefixo qualquer para os comandos>')
 
 @client. event
 async def on_ready():
